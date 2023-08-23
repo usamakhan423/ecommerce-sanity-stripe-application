@@ -9,6 +9,7 @@ export default defineConfig({
 
   projectId: '6izarh0n',
   dataset: 'production',
+  ignoreBrowserTokenWarning: true,
 
   plugins: [deskTool(), visionTool()],
 
